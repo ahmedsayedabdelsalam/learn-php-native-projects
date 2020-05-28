@@ -1,0 +1,157 @@
+/* Site Colors
+   #1A446C - blue gray
+   #689DC1 - light blue
+   #D4E6F4 - very light blue
+   #EEE489 - light tan
+   #8D0D19 - burgundy
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.block {
+    display: block
+}
+
+.message {
+    border: 2px solid #8D0D19;
+    padding: 20px;
+    color: #8D0D19;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 20px
+}
+
+li.selected {
+    font-weight: 800;
+    color: #eee489;
+}
+
+li {
+    font-weight: normal;
+}
+#header {
+    background-color: #1A446c;
+    color: #d0ecff;
+    height: 100px;
+    padding: 25px
+}
+
+#main #sidebar {
+    float: left;
+    width: 20%;
+    height: 580px;
+    background-color: #8D0D19
+}
+#main #sidebar ul {
+    color: #FFF;
+    margin :20px 0 0 40px
+}
+
+#main #sidebar ul li ul {
+    color: #FFF;
+    margin :0 0 5px 40px;
+    list-style-type: square
+}
+
+#main #sidebar > a {
+    color: #eee489;
+    display: block;
+    margin-top: 10px
+}
+
+#main #container {
+    float: left;
+    width: 80%;
+    height: 580px;
+    background-color: #EEE489;
+    padding: 30px
+}
+
+#main #container a.edit_subject {
+    text-decoration: underline;
+    margin-top: 20px;
+    color: #8D0D19
+}
+
+#main #container h2 {
+    margin-bottom: 20px
+}
+
+#main #container h2,
+#main #container ul li,
+#main #container ul li a,
+#main #container a#cancel,
+#main #container div h3,
+#main #container div a {
+    color: #8D0D19
+}
+
+#main #container div div.text-area p {
+    width: 450px;
+    padding: 10px;
+    border: 2px solid #8D0D19;
+    margin: 10px 0 0 10px
+}
+
+#main #container div hr {
+    width: 300px;
+    height: 2px;
+    background-color: #8D0D19;
+    border: none;
+    margin: 50px 0 20px
+}
+
+#main #container div h3 {
+    margin-bottom: 10px
+}
+
+#main #container ul {
+    margin-left: 40px
+}
+
+#main #container ul.message {
+    margin: -20px 0 20px;
+    padding-left: 40px
+}
+
+#main #container form#new_subject label {
+    display: block;
+    margin-bottom: 20px
+}
+
+#main #container form#new_subject label input[type="text"] {
+    padding: 5px
+}
+
+#main #container form#new_subject label input[type="radio"] {
+    margin-left: 25px
+}
+
+#main #container form#new_subject label textarea {
+    display: block;
+    /*resize: none*/
+}
+
+#main #container form#new_subject input[type="submit"] {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 20px
+}
+
+#footer {
+    background-color: #1A446c;
+    text-align: center
+}
